@@ -1,0 +1,29 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\Dart.ContentPipeline\bin\Debug\Dart.ContentPipeline.dll
+/reference:..\..\Dart.ContentPipeline\bin\Debug\System.Buffers.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin ../../../ogmo/testproject.ogmo
+/importer:OgmoImporter
+/processor:OgmoProcessor
+/build:../../../ogmo/testproject.ogmo;ogmo/testproject.ogmo
+
+#begin fonts/default.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:fonts/default.spritefont
+

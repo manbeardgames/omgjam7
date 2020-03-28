@@ -1,0 +1,74 @@
+{
+  "name": "EchoTestProject",
+  "ogmoVersion": "3.3.0",
+  "levelPaths": ["."],
+  "backgroundColor": "#282c34ff",
+  "gridColor": "#3c4049cc",
+  "anglesRadians": true,
+  "directoryDepth": 5,
+  "layerGridDefaultSize": {"x": 32, "y": 32},
+  "levelDefaultSize": {"x": 320, "y": 240},
+  "levelMinSize": {"x": 1280, "y": 720},
+  "levelMaxSize": {"x": 4096, "y": 4096},
+  "levelValues": [
+    {"name": "bool_level_value", "definition": "Boolean", "defaults": true},
+    {"name": "color_level_value", "definition": "Color", "defaults": "#081e3cff", "includeAlpha": false},
+    {
+      "name": "enum_level_value",
+      "definition": "Enum",
+      "choices": ["EnumLevelValueOne", "EnumLevelValueTwo", "EnumLevelValueThree", "EnumLevelValueFour"],
+      "defaults": 0
+    },
+    {"name": "float_level_value", "definition": "Float", "defaults": 10.5, "bounded": false, "min": 0, "max": 100},
+    {"name": "integer_level_value", "definition": "Integer", "defaults": 20, "bounded": false, "min": 0, "max": 100},
+    {"name": "string_level_value", "definition": "String", "defaults": "default string level value", "maxLength": 50, "trimWhitespace": true},
+    {"name": "text_level_value", "definition": "Text", "defaults": "Default Text Level Value"}
+  ],
+  "defaultExportMode": ".json",
+  "compactExport": false,
+  "externalScript": "",
+  "playCommand": "",
+  "entityTags": [],
+  "layers": [
+    {
+      "definition": "tile",
+      "name": "tile_layer",
+      "gridSize": {"x": 32, "y": 32},
+      "exportID": "18799883",
+      "exportMode": 0,
+      "arrayMode": 0,
+      "defaultTileset": "Test Tile Set"
+    },
+    {
+      "definition": "grid",
+      "name": "grid_layer",
+      "gridSize": {"x": 32, "y": 32},
+      "exportID": "27339842",
+      "arrayMode": 1,
+      "legend": {"0": "#00000000", "1": "#000000ff"}
+    },
+    {
+      "definition": "decal",
+      "name": "decal_layer",
+      "gridSize": {"x": 32, "y": 32},
+      "exportID": "27331739",
+      "folder": "",
+      "includeImageSequence": true,
+      "scaleable": false,
+      "rotatable": false,
+      "values": []
+    },
+    {
+      "definition": "entity",
+      "name": "entity_layer",
+      "gridSize": {"x": 32, "y": 32},
+      "exportID": "27349717",
+      "requiredTags": [],
+      "excludedTags": []
+    }
+  ],
+  "entities": [],
+  "tilesets": [
+    {"label": "Test Tile Set", "path": "../img/testsheet.png", "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAA4NJREFUeJztnetugzAMhZ1q7//K7MfGlFIYwbdzDPmkKptGc/GJHYeWrInIsiyLoGitydp+/zOifc9rR+t4mWpzpLX2VrLi3b8v19oMZM381YCa9pZlkdaayhOOhKMRYBSPMGB5v/d7aULQCOzh6T+OhCvlAR5hCplw7FHKA0ao5iW3EsCaSSHEKxWCzrCEF5TnqDygmpuPgFob1CFoiuCDKgSxZRKVudUiXBFaAdYt/92hy4Is92qq0E+sXQGybwv3HepvTfe/V2Vry+24PgToNzNZg99rh8nwFlusd1D7sudDAKaBM6EV4T/jixCuAYxoJ2Vv9KM6aLMgT1AZ1Yhwj/AA5oX9UR7QC8Gyx7i9AKvh+1i8vkZEOLum/7tG1FsLcJa57P3NatCr3FoADVvPOFsvRj3piBICaAfosXmKuL6HXgD2b8tZcROAJauwojW+NhRRewBi9lvQiGASwOvGHVNeno1JAMviw4o1q7lKE5H7WK8g1GvAE5gCgJkCgJkCgJkCgEkTICpVrZ4ChwuwNZCXwa7W6y2UV33hAmy/s++1yRmt13sCeNc3N2JgLnlA9XjLyJAAUXF8MkMQnLkPAFNGgLuGPbMA0Ya5+/qjFiDLMFH7CBbmIhzAlU/VyqwBCK56tSYqTAF20IZXTbikDEHZH4wjofKAu2c8ewx5QKUZWamvIiceUGlGVuprT9gaUG0monBfA6rORBSUWRAjUR5NlQUxEu3R0wPATA8AMwUAMwUAMwUA8yWCzdUtT9hEnOfvXf8ZQx7AuKONNo7Hc28jnArA+FFgfwgSI1dsdnpcTcQssxqwP3iD8SHBK/2BLMKshlvJ9DCIAMzGF/n0sEjSBfA0fsZMpciCPPEc0NmBeFeIEHGkThcBvB+6yCYyJJ6N6U0AiwGsxkOuC1FhrD8q7Yg/Aaynw1o3Lei8HiX+SwRvgMyswxtrf18ivouZFYY+nOF5vva8G6rAcyM5BVDiFS7fFmFEudd+f4IWov3s8S/y8z+FXcqr9R1db+3X6Pu9x6/op7/xs4wX3Y+kkssDskVEi+TqAdZBHYmRaIzU9/2WMYPUzsBsEaztWfsX4gHVy2QRsLEyeoZr288SYcgD0EbK7k/yeGt5wPZ6a7+yJ9fOCz+jo422fbH0+08Apk5lt0Mw/vrGrdKPgxI+A57ePnwGPL2Ez4BHtz+fEQPzDZMYIIkfakpSAAAAAElFTkSuQmCC", "tileWidth": 32, "tileHeight": 32, "tileSeparationX": 0, "tileSeparationY": 0}
+  ]
+}

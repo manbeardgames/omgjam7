@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Echo", "Echo\Echo.csproj", "{056D02ED-0E53-4B15-B5D4-99B306AD69AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dart", "Dart\Dart.csproj", "{A0C8C479-1307-401F-B063-7D940CFEE59D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dart.ContentPipeline", "Dart.ContentPipeline\Dart.ContentPipeline.csproj", "{90093C3F-13DA-42ED-B8A6-3AC1859F7692}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{056D02ED-0E53-4B15-B5D4-99B306AD69AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056D02ED-0E53-4B15-B5D4-99B306AD69AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056D02ED-0E53-4B15-B5D4-99B306AD69AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056D02ED-0E53-4B15-B5D4-99B306AD69AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C8C479-1307-401F-B063-7D940CFEE59D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C8C479-1307-401F-B063-7D940CFEE59D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C8C479-1307-401F-B063-7D940CFEE59D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C8C479-1307-401F-B063-7D940CFEE59D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90093C3F-13DA-42ED-B8A6-3AC1859F7692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90093C3F-13DA-42ED-B8A6-3AC1859F7692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90093C3F-13DA-42ED-B8A6-3AC1859F7692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90093C3F-13DA-42ED-B8A6-3AC1859F7692}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DD613D8-62E2-4263-8271-E57EACC2556D}
+	EndGlobalSection
+EndGlobal
